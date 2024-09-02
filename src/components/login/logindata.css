@@ -1,0 +1,64 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login-heading{
+    text-align: center;
+    color: #3C3C3C;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.login-extra{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.forgotpass{
+    color: #4DAD49;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    height: 65px;  
+  }
+
+  .end-text{
+    text-align: center;
+  }
+
+  .end-text span{
+    color: #4DAD49;
+   
+  }
+
+  .end-text span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+
+  .remember-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+width: 400px;
+  }
+
+  .remember-me p{
+color: #4DAD49;
+  } 
+
+  .remember-me p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
